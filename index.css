@@ -1,0 +1,425 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+/* here code for my navbar */
+body {
+  background-color: white;
+  /* color: black; */
+}
+
+:root {
+  --bg: red;
+  --clr:#d0f139;
+  
+}
+.menu-bar{
+  height: 40px;
+  padding: 5px;
+  display: none;
+   
+
+  
+}
+
+.navbar {
+  width: 100%;
+  backdrop-filter: blur(1.5px);
+  height: 80px;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.my_logo {
+  width: 200px;
+  height: 75px;
+  margin-left: 30px;
+
+}
+
+.my_logo img {
+  width: 100%;
+  height: 100%;
+}
+
+.menu a {
+  color: brown;
+  padding: 4px 0;
+  font-weight: bold;
+  font-size: 1.3rem;
+  
+}
+
+.menu a:hover {
+  /* border-radius: 2px 0 2px 0; */
+  border-bottom: 2px solid red;
+  /* transition: 0.5s */
+}
+/* .menu a:hover::before{
+color: brown;
+transition: 1s ease;
+} */
+
+.menu {
+
+  margin-right: 100px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+  margin: 30px;
+}
+
+/* here the code for content section */
+
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.img_container {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  /* border: 2px solid black;  */
+  margin-left: 10vw;
+}
+
+.img_container img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+
+.home {
+  width: 55vw;
+  display: flex;
+  align-items: center;
+  /* border: 2px solid red; */
+  justify-content: space-between;
+}
+
+.logo {
+  height: 300px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+
+.content {
+  color: azure;
+  /* margin-left: 180px; */
+  padding-top: 0px;
+  /* border: 2px solid red; */
+}
+
+
+
+.content p {
+  font-size: 2rem;
+  color: blue;
+}
+
+.nm {
+  color: #EC058E;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#element {
+  font-size: 3rem;
+  color: red;
+}
+
+.btm {
+  border-radius: 6px;
+  margin-top: 20px;
+  background: linear-gradient(45deg, red, blue);
+  color: white;
+  padding: 9px 10px;
+  font-size: 1.1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.resume-btn {
+  padding: 9px 38px;
+}
+
+.logo img {
+  aspect-ratio: 3/4;
+  width: 40px;
+  object-fit: contain;
+  cursor: pointer;
+  /* background-color: red; */
+}
+
+
+/* Style the About section */
+.about {
+  width: 100%;
+  border: 2px solid red;
+  display: flex;
+  
+  
+}
+.a-h2{
+ margin:10px;
+  font-size: 30px;
+}
+
+.details {
+  width: 700px;
+  height: 600px;
+  background-color: rgb(255, 238, 238);
+  margin: 10px 20px;
+  font-size: 25px;
+  word-spacing: 3px;
+ 
+  
+ 
+}
+.details ul li{
+  margin-inline-start: 40px;
+}
+.details p{
+  margin-right: 40px;
+}
+.about-img-container{
+  width: 400px;
+  height: 500px;
+border: 2px solid black;
+ display: flex;
+ margin: 20px;
+ justify-content: center;
+ /* box-shadow: #EC058E; */
+  
+}
+.about-image {
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-top: 30px;
+  /* box-shadow: brown; */
+}
+
+
+
+
+/* Style the skill section */
+
+
+.skill-section {
+  width: 90vw;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.skill-content{
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+
+
+.skill-btn {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.skill-btn button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.skill-btn button:hover {
+  background-color: #3e8e41;
+}
+
+
+/* skill circle css */
+.circle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  border: 2px solid black;
+  /* background: gray; */
+  
+
+}
+.conatiner-skill{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.conatiner-skill .progress{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  color: #fff;
+  background: #343333 linear-gradient(to right,transparent 50%,var(--clr) 0);
+}
+.conatiner-skill .progress h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 35px;
+  z-index: 1;
+  font-weight: 500;
+}
+
+.conatiner-skill .progress h4{
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  font-weight: 600;
+  color: var(--clr);
+  
+}
+.conatiner-skill .progress::before{
+  content: "";
+  display: block;
+  height: 100%;
+  margin-left: 50%;
+  transform-origin: left;
+  border-radius: 0 100% 100% 0/50%;
+  background: var(--clr);
+  animation: animate 1s ease forwards;
+  transform:rotate(60deg);
+/* transform: rotate(0.2 turn); */
+
+}
+.conatiner-skill .progress::after{
+  content: "";
+  position: absolute;
+  inset: 10px;
+  background: #222;
+  border-radius: 50%;
+ 
+}
+@keyframes animate{
+  100%{
+    background-color: blue;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style the contact section */
+.container {
+  padding: 10px 10%;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contact-left {
+  flex-basis: 35%;
+
+}
+.contact-right {
+  flex-basis: 60%;
+
+}
+.contact-left p {
+  margin: 10px 15px;
+  font-size: 20px;
+
+} 
+.contact-icon img {
+  height: 35px;
+  width: 35px;
+  display: flex;
+  display: inline-block;
+  margin: 10px 15px;
+  
+}
+
+.contact-right form {
+  width: 100%;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  border: 0;
+  outline: none;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  background:black;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.form btn {
+  padding: 14px 60px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 20px;
+}

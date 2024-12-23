@@ -1,0 +1,58 @@
+body{
+  color: white;
+  background: #081b29;
+}
+.sub-title{
+  text-align: center;
+  font-size: 60px;
+  padding:30px 0px 70px 0px ;
+}
+.sub-title span{
+  color: #0ef;
+}
+section{
+  display: flex;
+  flex-wrap: wrap;
+}
+.container-skill{
+  width: 600px;
+  height: 500px;
+  padding: 75px 90px;
+  margin-left: 120px;
+}
+.heading-skill{
+  text-align: center;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  margin-bottom: 50px;
+}
+.bar{
+  font-size: 23px;
+}
+.technical-bars .bar{
+  margin: 40px 0px;
+}
+.technical-bars .bar:first-child{
+  margin-top: 0;
+}
+.technical-bars .bar:last-child{
+  margin-bottom: 0;
+}
+.technical-bars .bar .info{
+  margin-bottom: 5px;
+}
+.technical-bars .bar .info span{
+  font-size: 17px;
+  font-weight: 500;
+  animation: showText 0.5s 1s linear forwards;
+  
+}
+.technical-bars .bar .progress-line{
+  position: relative;
+  border-radius: 10px;
+  height: 5px;
+  width: 100%;
+  background-color: #000;
+  animation: animate 1s cubic-bezier(1,0,0,5,1)forwards;
+}

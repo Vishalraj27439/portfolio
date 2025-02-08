@@ -1,0 +1,142 @@
+/* Landing page  */
+#header {
+  padding: 20px 40px;
+  position: relative;
+}
+.menubar {
+  display: block;
+  z-index: 3;
+}
+
+.nav {
+  display: block;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  min-width: 300px;
+  z-index: 2;
+}
+
+.nav ul {
+  list-style: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.section1 {
+  flex-direction: column-reverse;
+}
+
+.text-section {
+  max-width: 90%;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2rem;
+  margin: 20px 0;
+}
+
+.hero-description {
+  font-size: 1rem;
+}
+
+.image-section {
+  max-width: 50%;
+  height: 70vh;
+  min-width: 250px;
+}
+
+.profile-image {
+  width: 100%;
+}
+
+/* About Section  */
+
+.upper-title {
+  font-size: 2rem;
+  padding: 20px 30px;
+}
+
+.section {
+  width: 80%;
+}
+
+.section h1 {
+  font-size: 1.3rem;
+}
+
+.section p {
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+/* skill section  */
+
+.skill-container {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.skill-section {
+  width: 80%;
+}
+
+.skill-section h1 {
+  font-size: 1.3rem;
+}
+
+.skill-section ul li {
+  font-size: 1rem;
+  margin: 0.5rem 0;
+}
+
+/* project-section */
+.project {
+  width: 80%;
+  flex-direction: column;
+  height: fit-content;
+  margin: 20px auto;
+}
+
+.project-left {
+  min-width: 100%;
+  width: 100%;
+}
+.project-right {
+  width: 100%;
+}
+
+
+.project-right h2 {
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
+
+.project-right p {
+  font-size: 0.8rem;
+}
+
+.project-link {
+  font-size: 0.9rem;
+}
+
+
+/* contact-section */
+
+.contact-page-container {
+  justify-content: center;
+}
+.contact-page-container img {
+  display: none;
+}
+.form-container {
+  width: 90%;
+  min-width: 90%;
+}
+
+.hide {
+  display: none;
+}

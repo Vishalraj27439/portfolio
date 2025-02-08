@@ -128,12 +128,14 @@ body {
 }
 
 .image-section {
-  max-width: 40%;
-  height: 70vh;
+  width: 240px;
+  max-width: 100%;
+  height: 370px;
   /* background-color: rebeccapurple; */
 }
 
 .profile-image {
+  width: 100%;
   max-width: 100%;
   height: 100%;
   border-radius: 10px;
